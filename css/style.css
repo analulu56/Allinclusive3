@@ -25,12 +25,12 @@
     --cor-fundo-nav: rgb(76, 76, 76);
 
     /* sobre */
-    --cor-fundo-sobre: white;
-    --cor-titulo-sobre: rgb(23, 25, 26);
-    --cor-texto-sobre: rgb(0, 0, 0);
+    --cor-fundo-bd: white;
+    --cor-titulo-bd: rgb(23, 25, 26);
+    --cor-texto-bd: rgb(0, 0, 0);
 
     /* Nossos Serviços */
-    --cor-fundo-nossos: white;
+    
 
 }
 
@@ -90,13 +90,14 @@ nav .nav-link:hover {
 
 /* chat mensage */
 
-.bd {
+#bd {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: var( --cor-fundo-bd);
 }
 
 .chat-container {
@@ -275,11 +276,13 @@ nav .nav-link:hover {
     background-color: #1976D2;
 }
 
-.comment-list {
+#comment-list {
     background-color: white;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 5px;
+    background-color: var( --cor-fundo-bd);
+    color: var(--cor-texto-bd);
 }
 
 .comment-list p {
